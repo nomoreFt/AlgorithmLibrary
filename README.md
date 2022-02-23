@@ -4,6 +4,8 @@
 
 <details> <summary> <h1>-모두 출력하는 순열 (동일 수 중복) </h1> </summary>
 
+[N과M 1](https://www.acmicpc.net/problem/15649)       
+        
 [##_Image|kage@JKOul/btrt0M7qsbk/kddfgxNs0LO7KiBWUkD5zK/img.png|CDM|1.3|{"originWidth":1030,"originHeight":459,"style":"alignCenter"}_##]
 
 ```java
@@ -39,6 +41,8 @@ static class Permutation{
 </details>  
 
 <details> <summary> <h1>-모두 출력하는 순열 (동일 수 배제) </h1> </summary>
+        
+[N과M 3](https://www.acmicpc.net/problem/15651)           
 
 [##_Image|kage@JKOul/btrt0M7qsbk/kddfgxNs0LO7KiBWUkD5zK/img.png|CDM|1.3|{"originWidth":1030,"originHeight":459,"style":"alignCenter"}_##]
 
@@ -100,6 +104,8 @@ static class Permutation{
  </details>                                                     
 
 <details> <summary> <h1>-idx로 진행하는 수열(중복수 허용) </h1> </summary>  
+        
+[N과M 4](https://www.acmicpc.net/problem/15652)           
  
 ![image](https://user-images.githubusercontent.com/37995817/155260357-f6ca2059-67a9-4cd1-8c6b-72608aa885af.png)
 
@@ -160,6 +166,8 @@ public class Main {
 
 <details> <summary> <h1>-기본 조합 </h1> </summary>   
 
+[N과M 2](https://www.acmicpc.net/problem/15650)             
+        
 
 [##_Image|kage@05rcz/btrt6e2TJYE/U4dzQPIMcoUZD3yh3PM2X0/img.png|CDM|1.3|{"originWidth":1052,"originHeight":376,"style":"alignCenter"}_##]
 
