@@ -1,7 +1,7 @@
 ### 백준의 N과 M으로 알아보는 순열과 조합 뽑기
 3
 > 순열
-
+ 
 <details> <summary> <h1>-모두 출력하는 순열 (동일 수 중복) </h1> </summary>
 
 [N과M 1](https://www.acmicpc.net/problem/15649)       
