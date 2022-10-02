@@ -113,47 +113,50 @@ static class Permutation{
 import java.util.*;
 
 public class Main {
-  
-    static class Permutation{
+
+    static class Permutation {
         int n;
         int r;
         int now[];
         ArrayList<ArrayList<Integer>> result;
-        public Permutation(int n, int r){
+
+        public Permutation(int n, int r) {
             this.n = n;
             this.r = r;
             now = new int[r];
             result = new ArrayList<>();
         }
 
-        public void perm(int[] arr, int idx, int depth){
-            if(depth == r){
-                for(int i = 0; i < now.length; i++){
+        public void perm(int[] arr, int idx, int depth) {
+            if (depth == r) {
+                for (int i = 0; i < now.length; i++) {
                     System.out.print(now[i] + " ");
                 }
                 System.out.println();
                 return;
             }
-            for(int i = idx; i < n; i++){
+            for (int i = idx; i < n; i++) {
                 now[depth] = arr[i];
-                perm(arr,i, depth+1);
+                perm(arr, i, depth + 1);
             }
         }
     }
+
     static boolean visited[];
     static ArrayList<Integer> arr = new ArrayList<>();
-    static int n,r;
-   public static void main(String[] args) {
+    static int n, r;
+
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         r = sc.nextInt();
-        visited = new boolean[n];
+        visited = new boolean[][]{new boolean[n]};
 
-        for(int i = 1; i <=n; i++){
+        for (int i = 1; i <= n; i++) {
             arr.add(i);
         }
-       Permutation p = new Permutation(n, r);
-       p.perm(arr.stream().mapToInt(Integer::intValue).toArray(),0, 0);
+        Permutation p = new Permutation(n, r);
+        p.perm(arr.stream().mapToInt(Integer::intValue).toArray(), 0, 0);
     }
 }
 ```
